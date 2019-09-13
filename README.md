@@ -16,9 +16,13 @@ line after each test case.
 # 1<=A[i]
 # k<=10^6
 
-# Sample Input:                                     Sample output:
-  2                                                 3
-  3 4                                               0
+# Sample Input:                                     
+  2                                                 
+  3 4                                               
   1 2 5 
   3 2 
   2 5 5
+  
+# Sample output
+  3
+  0
