@@ -11,10 +11,10 @@ space separated integers denoting N and K. Second line of each test case consist
 For each test case, print the minimum time in which all array elements will become greater than or equal to K. Print a new 
 line after each test case. 
 
-# 1<=T<=5
-# 1<=T<=10^5
-# 1<=A[i]
-# k<=10^6
+1<=T<=5
+1<=T<=10^5
+1<=A[i]
+k<=10^6
 
 # Sample Input:                                     
   2                                                 
