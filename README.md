@@ -12,8 +12,11 @@ For each test case, print the minimum time in which all array elements will beco
 line after each test case. 
 
 1<=T<=5
+
 1<=T<=10^5
+
 1<=A[i]
+
 k<=10^6
 
 # Sample Input:                                     
