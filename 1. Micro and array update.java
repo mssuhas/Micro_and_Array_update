@@ -1,6 +1,6 @@
 package pblm1;
 import java.util.*;
-public class Pro1 {
+public class Micro and Array Update{
 
 	public static void main(String[] args) throws Exception {
 		
