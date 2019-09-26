@@ -1,4 +1,4 @@
-# 1. Micro_and_Array_update
+# 1. Micro and Array update
  Micro and Array Update Micro purchased an array A having N integer values. After playing it for a while, he got bored of it and
  decided to update value of its element. In one second he can increase value of each array element by 1. He wants each array element's
  value to become greater than or equal to K. Please help Micro to find out the minimum amount of time it will take, for him to do so. 
@@ -7,11 +7,11 @@
 First line consists of a single integer, T, denoting the number of test cases. First line of each test case consists of two 
 space separated integers denoting N and K. Second line of each test case consists of N space separated integers denoting the array A. 
  
-<h3>Output</h3>
+<h2>Output</h2>
 For each test case, print the minimum time in which all array elements will become greater than or equal to K. Print a new 
 line after each test case. 
 
-# Constraints
+<h2>Constraints</h2>
 1<=T<=5
 
 1<=T<=10^5
@@ -20,7 +20,7 @@ line after each test case.
 
 k<=10^6
 
-# Sample Input:                                     
+<h2>Sample Input</h2>                                     
   2 
   
   3 4  
@@ -31,7 +31,7 @@ k<=10^6
   
   2 5 5
   
-# Sample Output
+<h2>Sample Output</h2>
   3
   
   0
@@ -41,44 +41,44 @@ k<=10^6
  
  Since you are a curious kid, you want to find all the marks that are not smaller than those on its right side in the array. 
  
-# Input Format
+<h2>Input Format</h2>
 The first line of input will contain a single integer n denoting the number of students. The next line will contain n space separated integers representing the marks of students. 
  
-# Output Format
+<h2>Output Format</h2>
  Output all the integers separated in the array from left to right that are not smaller than those on its right side. 
  
-# Constraints 
+<h2>Constraints</h2> 
 1 <= n <= 1000000 
 
 0 <= arr[i] <= 10000 
 
-# Sample Input
+<h2>Sample Input</h2>
  6
  
  16 17 4 3 5 2
  
-# Sample Iutput
+<h2>Sample Iutput</h2>
  17 5 2
  
 # 3. Frustrated coders   
  There are N frustrated coders standing in a circle with a gun in their hands. Each coder has a skill value S[ i ] and he can only kill  those coders that have strictly less skill than him. One more thing, all the guns have only 1 bullet. This roulette can take place in  any random order. Fortunately, you have the time stone (haaan wo harre wala) and you can see all possible outcomes of this scenario.  Find the outcome where the total sum of the remaining coder's skill is minimum. Print this sum. 
  
-# Input Format
+<h2>Input Format</h2>
  The first line contains N the no. of coders The next line contains N  elements where the ith element is theS[ i ] of ith coder. 
  
-# Output Format
+<h2>Output Format</h2>
  Print a single line containing the minimum sum. 
  
-# Constraints 
+<h2>Constraints </h2>
  1<= N <= 1000000
  
  1<=S[ i ]<=1000
  
-# Sample Input
+<h2> Sample Input</h2>
  6
  
  1 7 2 2 4 4
-# Sample Output
+<h2> Sample Output</h2>
  11
  
 # 4. Pink Floyd and Happiness 
@@ -90,21 +90,21 @@ Pink is delivered his records in some given order, he can either add the record 
  
 Print whether Pink will be sad or happy after the delivery of the records. 
  
-# Input Format
+<h2> Input Format</h2>
 N - Number of records followed  by N numbers- order of records. 
  
-# Output Format 
+<h2>Output Format</h2> 
  Print "Happy" if the playlist has songs from 1 to N in order else "Sad". 
  
-# Constraints
+<h2 Constraints</h2>
  1<=N<=10^5 
  The array consists of 1-N distinct numbers. 
-# Sample Input 
+<h2> Sample Input</h2> 
  5
  
  1 2 4 3 5
  
-# Sample Output
+<h2> Sample Output</h2>
  Happy
 
 # 5. Hacker and traffic lights
@@ -114,21 +114,21 @@ N - Number of records followed  by N numbers- order of records.
  
  Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1)  by increasing their  state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the  minimum time to do the process as Zolo is getting late for work. 
  
-# Input Format 
+<h2> Input Format </h2>
  The first line contains N K The second line describes the current status of each bulb as an array whose each element can either be G or  Y or R. 
  
-# Output Format
+<h2> Output Format</h2>
  Print the minimum amount of time required to clear the traffic jam". 
  
-# Constraints 
+<h2> Constraints</h2> 
  1<=N
  
  K<=100000. 
  
- # Sample Input
+ <h2>Sample Input</h2>
  4 2
  
  R Y G Y
  
- # Sample Output
+ <h2> Sample Output</h2>
   5
