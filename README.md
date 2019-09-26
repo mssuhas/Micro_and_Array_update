@@ -13,27 +13,19 @@ line after each test case.
 
 <h2>Constraints</h2>
 1<=T<=5
-
 1<=T<=10^5
-
 1<=A[i]
-
 k<=10^6
 
 <h2>Sample Input</h2>                                     
-  2 
-  
-  3 4  
-  
-  1 2 5 
-  
-  3 2 
-  
+  2   
+  3 4    
+  1 2 5  
+  3 2   
   2 5 5
   
 <h2>Sample Output</h2>
-  3
-  
+  3  
   0
   
 # 2. Hamiltonian and Lagrangian  
@@ -49,12 +41,10 @@ The first line of input will contain a single integer n denoting the number of s
  
 <h2>Constraints</h2> 
 1 <= n <= 1000000 
-
 0 <= arr[i] <= 10000 
 
 <h2>Sample Input</h2>
- 6
- 
+ 6 
  16 17 4 3 5 2
  
 <h2>Sample Iutput</h2>
@@ -70,13 +60,11 @@ The first line of input will contain a single integer n denoting the number of s
  Print a single line containing the minimum sum. 
  
 <h2>Constraints </h2>
- 1<= N <= 1000000
- 
+ 1<= N <= 1000000 
  1<=S[ i ]<=1000
  
 <h2> Sample Input</h2>
- 6
- 
+ 6 
  1 7 2 2 4 4
 <h2> Sample Output</h2>
  11
@@ -99,9 +87,9 @@ N - Number of records followed  by N numbers- order of records.
 <h2 Constraints</h2>
  1<=N<=10^5 
  The array consists of 1-N distinct numbers. 
-<h2> Sample Input</h2> 
- 5
  
+<h2> Sample Input</h2> 
+ 5 
  1 2 4 3 5
  
 <h2> Sample Output</h2>
@@ -121,13 +109,11 @@ N - Number of records followed  by N numbers- order of records.
  Print the minimum amount of time required to clear the traffic jam". 
  
 <h2> Constraints</h2> 
- 1<=N
- 
+ 1<=N 
  K<=100000. 
  
  <h2>Sample Input</h2>
- 4 2
- 
+ 4 2 
  R Y G Y
  
  <h2> Sample Output</h2>
