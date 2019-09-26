@@ -51,15 +51,20 @@ The first line of input will contain a single integer n denoting the number of s
  Output all the integers separated in the array from left to right that are not smaller than those on its right side. 
  
 <h2>Constraints</h2> 
+
 1 <= n <= 1000000 
+
 0 <= arr[i] <= 10000 
 
 <h2>Sample Input</h2>
- 6 
- 16 17 4 3 5 2
+
+6 
+
+16 17 4 3 5 2
  
 <h2>Sample Iutput</h2>
- 17 5 2
+
+17 5 2
  
 # 3. Frustrated coders   
  There are N frustrated coders standing in a circle with a gun in their hands. Each coder has a skill value S[ i ] and he can only kill  those coders that have strictly less skill than him. One more thing, all the guns have only 1 bullet. This roulette can take place in  any random order. Fortunately, you have the time stone (haaan wo harre wala) and you can see all possible outcomes of this scenario.  Find the outcome where the total sum of the remaining coder's skill is minimum. Print this sum. 
@@ -71,14 +76,19 @@ The first line of input will contain a single integer n denoting the number of s
  Print a single line containing the minimum sum. 
  
 <h2>Constraints </h2>
- 1<= N <= 1000000 
- 1<=S[ i ]<=1000
+
+1<= N <= 1000000 
+
+1<=S[ i ]<=1000
  
 <h2> Sample Input</h2>
- 6 
- 1 7 2 2 4 4
+
+6 
+
+1 7 2 2 4 4
 <h2> Sample Output</h2>
- 11
+
+11
  
 # 4. Pink Floyd and Happiness 
  Pink is sad because of some reasons, he wants to cheer up by listening to some songs from his favorite band, Pink Floyd. 
@@ -96,15 +106,20 @@ N - Number of records followed  by N numbers- order of records.
  Print "Happy" if the playlist has songs from 1 to N in order else "Sad". 
  
 <h2 Constraints</h2>
- 1<=N<=10^5 
- The array consists of 1-N distinct numbers. 
+
+1<=N<=10^5 
+
+The array consists of 1-N distinct numbers. 
  
 <h2> Sample Input</h2> 
- 5 
- 1 2 4 3 5
+
+5 
+
+1 2 4 3 5
  
 <h2> Sample Output</h2>
- Happy
+
+Happy
 
 # 5. Hacker and traffic lights
  Zolo is stuck in a traffic due to dysfunctional traffic light. Zolo is a professional hacker and he can get into the system and change  the state of the light. His planet has different types of traffic lights such that there are N bulbs on the traffic board and only when  all of them are green(G) the cars can pass. there are 2 other states also which the bulb can show; i.e. Red(R) & Yellow(Y). Note that  the lights are designed such that they follow a state change cyclic pattern as follows: 
@@ -120,12 +135,17 @@ N - Number of records followed  by N numbers- order of records.
  Print the minimum amount of time required to clear the traffic jam". 
  
 <h2> Constraints</h2> 
- 1<=N 
- K<=100000. 
+
+1<=N 
+
+K<=100000. 
+
+<h2>Sample Input</h2>
+
+4 2 
+
+R Y G Y
  
- <h2>Sample Input</h2>
- 4 2 
- R Y G Y
+<h2> Sample Output</h2>
  
- <h2> Sample Output</h2>
-  5
+ 5
