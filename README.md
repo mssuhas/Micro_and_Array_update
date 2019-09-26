@@ -54,6 +54,7 @@ The first line of input will contain a single integer n denoting the number of s
 
 # Sample Input
  6
+ 
  16 17 4 3 5 2
  
 # Sample output
