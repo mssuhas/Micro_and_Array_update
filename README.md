@@ -12,6 +12,7 @@ space separated integers denoting N and K. Second line of each test case consist
 For each test case, print the minimum time in which all array elements will become greater than or equal to K. Print a new 
 line after each test case. 
 
+# Constraints
 1<=T<=5
 
 1<=T<=10^5
@@ -47,6 +48,15 @@ The first line of input will contain a single integer n denoting the number of s
 # Output Format
  Output all the integers separated in the array from left to right that are not smaller than those on its right side. 
  
-Constraints 
-1 <= n <= 1000000 0 <= arr[i] <= 10000 
+# Constraints 
+1 <= n <= 1000000 
+
+0 <= arr[i] <= 10000 
+
+# Sample Input
+ 6
+ 16 17 4 3 5 2
+ 
+# Sample output
+ 17 5 2
 
