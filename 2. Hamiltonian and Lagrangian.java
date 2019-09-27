@@ -1,6 +1,6 @@
 package pblm1;
 import java.util.*;
-public class Pro2 {
+public class Hamiltonian and Lagrangian {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
