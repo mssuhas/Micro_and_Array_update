@@ -211,6 +211,7 @@ In the output, you need to print two integers separated by space which denote th
  
 <h2> Output Format </h2>
  4 6
+ 
 # 8. Monk watching fight
 Once Monk was watching a fight between an array and a tree, of being better. Tree got frustrated and converted that array into a Binary Search Tree by inserting the elements as nodes in BST, processing elements in the given order in the array. Now Monk wants to know the height of the created Binary Search Tree. Help Monk for the same. Note: 1) In Binary Search Tree, the left sub-tree contains only nodes with values less than or equal to the parent node; the right sub-tree contains only nodes with values greater than the parent node. 2) Binary Search Tree with one node, has height equal to 1.
 
@@ -231,6 +232,7 @@ Print the height of the created Binary Search Tree.
 
 <h2> Output Format </h2>
  3
+ 
 # 9. Yatin plays PUBG
  Yatin is playing PUBG and he has reached a place with a large staircase in front of him. And there is an enemy at each landing of the staircase. The staircase is analogous to a binary tree with each of its nodes as a landing of the staircase and each of its edges as stairs from one landing to another.
  Yatin wants to kill the maximum possible number of enemies. He can kill every person he can see from his position with his suppressed sniper gun. But he can see only the persons at the leftmost standing at each level and cannot see the rest. Before starting shooting them, he wants to know how many persons he can kill. He is busy keeping an eye on the enemies. So he wants you to find out the maximum number of people he can kill from that location by providing you with the analogous a binary search tree. 
@@ -276,9 +278,10 @@ Print N lines. The ith line should contain 2 space separated integers such that 
 
 1 ≤ M ≤ 109
 
-<h2Sample Input:></h2>
+<h2>Sample Input:></h2>
 7 5
 1 3 1 3 2 2 2
+
 <h2>Output Format</h2>
 1 1
 3 1
