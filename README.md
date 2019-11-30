@@ -149,6 +149,7 @@ R Y G Y
 <h2> Sample Output</h2>
  
  5
+ 
 # 6. Remove Friends
 After getting her PhD, Christie has become a celebrity at her university, and her facebook profile is full of friend requests. Being the nice girl she is, Christie has accepted all the requests.
 
@@ -178,15 +179,25 @@ Order of friends after deleting exactly K friends should be maintained as given 
 
 <h2> Sample Input: </h2>
  3 
+ 
  3 1
+ 
  3 100 1
+ 
  5 2
+ 
  19 12 3 4 17
+ 
  5 3
+ 
  23 45 11 77 18
 
 <h2> Output Format </h2>
-100 1 19 12 17 77 18
+100 1
+
+19 12 17
+
+77 18
 
 # 7. Largest cycle in a tree
 You are given a tree of N nodes and N-1 edges. Now you need to select two nodes a and b in the tree such that the cycle that will be formed after adding an edge between the two nodes a and b, its length should be maximum. If there are more than one possible answer, you can output any of them.
@@ -203,14 +214,21 @@ In the output, you need to print two integers separated by space which denote th
 <h2> Sample Input: </h2>
 
  7
+ 
  1 2
+ 
  1 3
+ 
  2 4
+ 
  2 5
+ 
  3 6
+ 
  3 7
  
 <h2> Output Format </h2>
+
  4 6
  
 # 8. Monk watching fight
@@ -229,6 +247,7 @@ Print the height of the created Binary Search Tree.
  
 <h2> Sample Input: </h2>
  4
+ 
  2 1 3 4
 
 <h2> Output Format </h2>
@@ -254,11 +273,14 @@ Print the answer for each test case on a new line.
 
 <h2>Sample Input:</h2>
 1
+
 9
+
 8 3 10 1 6 14 4 7 13
 
 <h2>Output Format</h2>
 4
+
 # 10. Haunted
 The king of ghosts is really disappointed when he sees that all the human beings on Planet Earth have stopped fearing the ghost race. He knows the reason for this. The existing ghost race has become really lazy and has stopped visiting Planet Earth to scare the human race. Hence, he decides to encourage the entire ghost race into scaring the humans by holding a competition. The king, however, never visits Planet Earth. 
 This competition will go on for N days. Currently, there are a total of M ghosts (apart from the king) existing in the ghost race such that : 
