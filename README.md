@@ -201,6 +201,7 @@ In the output, you need to print two integers separated by space which denote th
  1<=n<=10^5
  
 <h2> Sample Input: </h2>
+
  7
  1 2
  1 3
@@ -280,13 +281,20 @@ Print N lines. The ith line should contain 2 space separated integers such that 
 
 <h2>Sample Input:></h2>
 7 5
+
 1 3 1 3 2 2 2
 
 <h2>Output Format</h2>
 1 1
+
 3 1
+
 1 2
+
 3 2
+
 3 2
+
 3 2
+
 2 3
